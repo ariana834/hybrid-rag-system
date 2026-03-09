@@ -1,0 +1,6 @@
+DocuMind is a document analysis system.
+It parses documents and extracts text.
+The system then splits the text into semantic chunks.
+Each chunk is converted into embeddings.
+The embeddings are stored in PostgreSQL using pgvector.
+This allows semantic search over documents.
