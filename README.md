@@ -27,7 +27,7 @@ Upload a **PDF, DOCX, or TXT** file through the interface.
 The system parses the document, extracts the text, and splits it into **semantic chunks** that are later embedded and indexed.
 
 <p align="center">
-<img src="assets/upload.png" width="750">
+<img src="assets/upload.png" width="450">
 </p>
 
 After processing, the UI displays the number of chunks created and the total processing time.
@@ -39,7 +39,7 @@ After processing, the UI displays the number of chunks created and the total pro
 The system supports multiple retrieval strategies that can be tested independently.
 
 <p align="center">
-<img src="assets/retrieval_modes.png" width="750">
+<img src="assets/retrieval_modes.png" width="450">
 </p>
 
 | Mode | Description |
