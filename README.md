@@ -1,13 +1,13 @@
 <div align="center">
 
-# documind-ai
+# Hybrid Retrieval-Augmented Generation System
 **Upload a document. Ask anything. Every answer cites its source.**
 
 </div>
 
 ---
 
-**documind-ai** is a full-stack Retrieval-Augmented Generation (RAG) system built entirely from scratch in Python.
+**Hybrid Retrieval-Augmented Generation System** is a full-stack Retrieval-Augmented Generation (RAG) system built entirely from scratch in Python.
 
 Drop in a PDF, DOCX, or TXT file. The system parses it, splits it into semantically coherent chunks, embeds each one, and stores them in a PostgreSQL vector database. When you ask a question, it runs two retrieval strategies in parallel — dense vector search and BM25 keyword matching — fuses the results using Reciprocal Rank Fusion, re-scores the top candidates with a cross-encoder, and generates a precise answer with inline citations.
 
